@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Ezzar_API_Result</td><td class="numi">13</td><td class="numi">13</td><td class="numi">0</td><td class="numi">0</td><td class="numi">21.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Ezzar_API_Result &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">post_Request.Create_User</td><td><a href="#m1"><b>createUser_Test</b>  </a></td><td class="numi">1</td><td>1532418502214</td><td class="numi">3059</td></tr>
+<tr class="passedeven"><td rowspan="1">post_Request.Ezzar_Login</td><td><a href="#m2"><b>createUser_Test</b>  </a></td><td class="numi">1</td><td>1532418509611</td><td class="numi">1424</td></tr>
+<tr class="passedodd"><td rowspan="1">post_Request.Register_Post</td><td><a href="#m3"><b>custLogin_Test</b>  </a></td><td class="numi">1</td><td>1532418505273</td><td class="numi">2206</td></tr>
+<tr class="passedeven"><td rowspan="1">post_Request.Demo_Login</td><td><a href="#m4"><b>custSocilogin_Test</b>  </a></td><td class="numi">1</td><td>1532418507479</td><td class="numi">2132</td></tr>
+<tr class="passedodd"><td rowspan="1">getRequest.Categories_Listing</td><td><a href="#m5"><b>explore_CategoriesList_Response</b>  </a></td><td class="numi">1</td><td>1532418491166</td><td class="numi">2885</td></tr>
+<tr class="passedeven"><td rowspan="1">getRequest.Explore_More_Categories</td><td><a href="#m6"><b>explore_CategoriesList_Response</b>  </a></td><td class="numi">1</td><td>1532418494843</td><td class="numi">665</td></tr>
+<tr class="passedodd"><td rowspan="1">getRequest.Product_pramotion</td><td><a href="#m7"><b>explore_CategoriesList_Response</b>  </a></td><td class="numi">1</td><td>1532418496279</td><td class="numi">744</td></tr>
+<tr class="passedeven"><td rowspan="1">getRequest.Tailor_Search</td><td><a href="#m8"><b>explore_CategoriesList_Response</b>  </a></td><td class="numi">1</td><td>1532418497783</td><td class="numi">2324</td></tr>
+<tr class="passedodd"><td rowspan="1">getRequest.Categories_Listing</td><td><a href="#m9"><b>expolre_CategoriesList_Body</b>  </a></td><td class="numi">1</td><td>1532418494051</td><td class="numi">777</td></tr>
+<tr class="passedeven"><td rowspan="1">getRequest.Explore_More_Categories</td><td><a href="#m10"><b>expolre_CategoriesList_Body</b>  </a></td><td class="numi">1</td><td>1532418495514</td><td class="numi">765</td></tr>
+<tr class="passedodd"><td rowspan="1">getRequest.Product_pramotion</td><td><a href="#m11"><b>expolre_CategoriesList_Body</b>  </a></td><td class="numi">1</td><td>1532418497025</td><td class="numi">743</td></tr>
+<tr class="passedeven"><td rowspan="1">getRequest.Tailor_Search</td><td><a href="#m12"><b>expolre_CategoriesList_Body</b>  </a></td><td class="numi">1</td><td>1532418500108</td><td class="numi">2089</td></tr>
+<tr class="passedodd"><td rowspan="1">put_Request.Update_User</td><td><a href="#m13"><b>update_userTest</b>  </a></td><td class="numi">1</td><td>1532418511051</td><td class="numi">1984</td></tr>
+</table>
+<h1>Ezzar_API_Result</h1>
+<h2 id="m1">getRequest.Tailor_Search:expolre_CategoriesList_Body</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">getRequest.Categories_Listing:expolre_CategoriesList_Body</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">getRequest.Categories_Listing:explore_CategoriesList_Response</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">getRequest.Explore_More_Categories:explore_CategoriesList_Response</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">getRequest.Explore_More_Categories:expolre_CategoriesList_Body</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">getRequest.Product_pramotion:expolre_CategoriesList_Body</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">getRequest.Product_pramotion:explore_CategoriesList_Response</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">getRequest.Tailor_Search:explore_CategoriesList_Response</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">put_Request.Update_User:update_userTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">post_Request.Register_Post:custLogin_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">post_Request.Demo_Login:custSocilogin_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">post_Request.Create_User:createUser_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">post_Request.Ezzar_Login:createUser_Test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

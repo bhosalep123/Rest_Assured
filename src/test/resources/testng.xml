@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ezzar_API Testing">
+
+   <test name="Ezzar_API_Result">
+    <classes>
+      <class name="getRequest.Categories_Listing">
+     </class>
+     <class name="getRequest.Explore_More_Categories">
+     </class>
+     <class name="getRequest.Product_pramotion"></class>
+     <class name="getRequest.Tailor_Search"></class>
+     <class name="getRequest.Categories_Listing"></class>
+     <class name="getRequest.Explore_More_Categories"></class>
+     <class name="post_Request.Create_User"></class>
+     <class name="post_Request.Register_Post"></class>
+     <class name="post_Request.Demo_Login"></class>
+     <class name="post_Request.Ezzar_Login"></class>
+     <class name="put_Request.Update_User"></class>
+    </classes>
+    
+  </test>
+</suite> <!-- Suite -->

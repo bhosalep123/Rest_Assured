@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Ezzar_API Testing]">
+  <test name="Ezzar_API_Result(failed)">
+    <classes>
+      <class name="getRequest.Tailor_Search">
+        <methods>
+          <include name="explore_CategoriesList_Response"/>
+          <include name="productPramotion_Response"/>
+          <include name="categoriesList_Response"/>
+          <include name="tailorSearch_Response"/>
+        </methods>
+      </class> <!-- getRequest.Tailor_Search -->
+      <class name="getRequest.categories_Get">
+        <methods>
+          <include name="categoriesList_Response"/>
+        </methods>
+      </class> <!-- getRequest.categories_Get -->
+      <class name="getRequest.Explore_More_Categories">
+        <methods>
+          <include name="explore_CategoriesList_Response"/>
+          <include name="categoriesList_Response"/>
+        </methods>
+      </class> <!-- getRequest.Explore_More_Categories -->
+      <class name="getRequest.Product_pramotion">
+        <methods>
+          <include name="explore_CategoriesList_Response"/>
+          <include name="productPramotion_Response"/>
+          <include name="categoriesList_Response"/>
+        </methods>
+      </class> <!-- getRequest.Product_pramotion -->
+    </classes>
+  </test> <!-- Ezzar_API_Result(failed) -->
+</suite> <!-- Failed suite [Ezzar_API Testing] -->

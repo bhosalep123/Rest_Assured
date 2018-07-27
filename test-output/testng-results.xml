@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Ezzar_API Testing" duration-ms="21894" started-at="2018-07-24T07:48:11Z" finished-at="2018-07-24T07:48:33Z">
+    <groups>
+    </groups>
+    <test name="Ezzar_API_Result" duration-ms="21894" started-at="2018-07-24T07:48:11Z" finished-at="2018-07-24T07:48:33Z">
+      <class name="getRequest.Tailor_Search">
+        <test-method status="PASS" signature="explore_CategoriesList_Response()[pri:0, instance:getRequest.Tailor_Search@5e5792a0]" name="explore_CategoriesList_Response" duration-ms="2324" started-at="2018-07-24T13:18:17Z" finished-at="2018-07-24T13:18:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- explore_CategoriesList_Response -->
+        <test-method status="PASS" signature="expolre_CategoriesList_Body()[pri:0, instance:getRequest.Tailor_Search@5e5792a0]" name="expolre_CategoriesList_Body" duration-ms="2089" started-at="2018-07-24T13:18:20Z" finished-at="2018-07-24T13:18:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expolre_CategoriesList_Body -->
+      </class> <!-- getRequest.Tailor_Search -->
+      <class name="put_Request.Update_User">
+        <test-method status="PASS" signature="update_userTest()[pri:0, instance:put_Request.Update_User@26653222]" name="update_userTest" duration-ms="1984" started-at="2018-07-24T13:18:31Z" finished-at="2018-07-24T13:18:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_userTest -->
+      </class> <!-- put_Request.Update_User -->
+      <class name="getRequest.Explore_More_Categories">
+        <test-method status="PASS" signature="explore_CategoriesList_Response()[pri:0, instance:getRequest.Explore_More_Categories@29774679]" name="explore_CategoriesList_Response" duration-ms="665" started-at="2018-07-24T13:18:14Z" finished-at="2018-07-24T13:18:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- explore_CategoriesList_Response -->
+        <test-method status="PASS" signature="expolre_CategoriesList_Body()[pri:0, instance:getRequest.Explore_More_Categories@29774679]" name="expolre_CategoriesList_Body" duration-ms="765" started-at="2018-07-24T13:18:15Z" finished-at="2018-07-24T13:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expolre_CategoriesList_Body -->
+      </class> <!-- getRequest.Explore_More_Categories -->
+      <class name="post_Request.Create_User">
+        <test-method status="PASS" signature="createUser_Test()[pri:0, instance:post_Request.Create_User@3532ec19]" name="createUser_Test" duration-ms="3059" started-at="2018-07-24T13:18:22Z" finished-at="2018-07-24T13:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser_Test -->
+      </class> <!-- post_Request.Create_User -->
+      <class name="getRequest.Categories_Listing">
+        <test-method status="PASS" signature="explore_CategoriesList_Response()[pri:0, instance:getRequest.Categories_Listing@523884b2]" name="explore_CategoriesList_Response" duration-ms="2885" started-at="2018-07-24T13:18:11Z" finished-at="2018-07-24T13:18:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- explore_CategoriesList_Response -->
+        <test-method status="PASS" signature="expolre_CategoriesList_Body()[pri:0, instance:getRequest.Categories_Listing@523884b2]" name="expolre_CategoriesList_Body" duration-ms="777" started-at="2018-07-24T13:18:14Z" finished-at="2018-07-24T13:18:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expolre_CategoriesList_Body -->
+      </class> <!-- getRequest.Categories_Listing -->
+      <class name="post_Request.Register_Post">
+        <test-method status="PASS" signature="custLogin_Test()[pri:0, instance:post_Request.Register_Post@5b275dab]" name="custLogin_Test" duration-ms="2206" started-at="2018-07-24T13:18:25Z" finished-at="2018-07-24T13:18:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- custLogin_Test -->
+      </class> <!-- post_Request.Register_Post -->
+      <class name="getRequest.Product_pramotion">
+        <test-method status="PASS" signature="explore_CategoriesList_Response()[pri:0, instance:getRequest.Product_pramotion@3ffc5af1]" name="explore_CategoriesList_Response" duration-ms="744" started-at="2018-07-24T13:18:16Z" finished-at="2018-07-24T13:18:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- explore_CategoriesList_Response -->
+        <test-method status="PASS" signature="expolre_CategoriesList_Body()[pri:0, instance:getRequest.Product_pramotion@3ffc5af1]" name="expolre_CategoriesList_Body" duration-ms="743" started-at="2018-07-24T13:18:17Z" finished-at="2018-07-24T13:18:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expolre_CategoriesList_Body -->
+      </class> <!-- getRequest.Product_pramotion -->
+      <class name="post_Request.Demo_Login">
+        <test-method status="PASS" signature="custSocilogin_Test()[pri:0, instance:post_Request.Demo_Login@29ee9faa]" name="custSocilogin_Test" duration-ms="2132" started-at="2018-07-24T13:18:27Z" finished-at="2018-07-24T13:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- custSocilogin_Test -->
+      </class> <!-- post_Request.Demo_Login -->
+      <class name="post_Request.Ezzar_Login">
+        <test-method status="PASS" signature="createUser_Test()[pri:0, instance:post_Request.Ezzar_Login@61832929]" name="createUser_Test" duration-ms="1424" started-at="2018-07-24T13:18:29Z" finished-at="2018-07-24T13:18:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser_Test -->
+      </class> <!-- post_Request.Ezzar_Login -->
+    </test> <!-- Ezzar_API_Result -->
+  </suite> <!-- Ezzar_API Testing -->
+</testng-results>

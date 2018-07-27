@@ -1,0 +1,91 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>restAssuredFreamwork</groupId>
+  <artifactId>restAssuredFreamwork</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+   <properties>
+    <dependency.location.enabled>false</dependency.location.enabled>
+<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+<!--maven.test.skip>true</maven.test.skip-->
+</properties>
+  <dependencies>
+  <!-- REST Assured is a Java DSL for simplifying testing of REST based services built on top of HTTP Builder. 
+  It supports POST, GET, PUT, DELETE, HEAD, PATCH and OPTIONS requests and to verify the response of these requests.  -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>3.0.0</version>
+</dependency>
+<!-- JsonPath uses special notation to represent nodes and their connections to adjacent nodes in a JsonPath path. -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>json-path</artifactId>
+    <version>3.0.0</version>
+</dependency>
+<!-- we can validate a JSON response based on a predefined JSON schema. -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>json-schema-validator</artifactId>
+    <version>3.0.2</version>
+</dependency>
+<!-- A simple Java toolkit for JSON -->
+<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
+</dependency>
+<!-- We can also verify our responses using XPath -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>xml-path</artifactId>
+    <version>3.0.7</version>
+</dependency>
+<!-- Hamcrest matchers to perform its assertions -->
+<dependency>
+    <groupId>org.hamcrest</groupId>
+    <artifactId>java-hamcrest</artifactId>
+    <version>2.0.0.0</version>
+</dependency>
+
+<dependency>
+  <groupId>org.testng</groupId>
+  <artifactId>testng</artifactId>
+  <version>6.8</version>
+  <scope>test</scope>
+  </dependency>
+  <dependency>
+    <groupId>com.opencsv</groupId>
+    <artifactId>opencsv</artifactId>
+    <version>3.2</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>3.16</version>
+</dependency>
+  </dependencies>
+  <build>
+  <plugins>
+  <plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-compiler-plugin</artifactId>
+<version>3.2</version>
+<configuration>
+<compilerVersion>1.8</compilerVersion>
+<source>1.6</source>
+<target>1.6</target>
+</configuration>
+ </plugin>
+ <plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-surefire-plugin</artifactId>
+<version>2.20</version>
+<configuration>
+<suiteXmlFiles>
+<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+</suiteXmlFiles>
+</configuration>
+</plugin>
+ </plugins>
+  </build>
+</project>
